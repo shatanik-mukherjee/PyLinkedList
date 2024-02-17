@@ -30,7 +30,7 @@
 # Copyright: Copyright (c) 2024
 # Credits: [Shatanik Mukherjee]
 # License: MIT License
-# Version: 1.0.0
+# Version: 1.0.1
 # Maintainer: Shatanik Mukherjee
 # Email: shatanikmukherjee171@gmail.com
 # Status: Dev
@@ -44,7 +44,7 @@ __author__ = "Shatanik Mukherjee"
 __copyright__ = "Copyright (c) 2024"
 __credits__ = ["Shatanik Mukherjee"]
 __license__ = "MIT License"
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 __maintainer__ = "Shatanik Mukherjee"
 __email__ = "shatanikmukherjee171@gmail.com"
 __status__ = "Dev"

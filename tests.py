@@ -45,6 +45,8 @@ def singlyLinkedList_test() -> None:
     print(f"linked list: {linked_list}, size: {linked_list.size()}")
     linked_list.extend(DoublyLinkedList(["A", "B", "C"]))
     print(f"linked list: {linked_list}, size: {linked_list.size()}")
+    linked_list.extend("linkedlist")
+    print(f"linked list: {linked_list}, size: {linked_list.size()}")
 
 
 def doublyLinkedList_test() -> None:
@@ -90,6 +92,8 @@ def doublyLinkedList_test() -> None:
     linked_list.extend(_linked_list)
     print(f"linked list: {linked_list}, size: {linked_list.size()}")
     linked_list.extend(SinglyLinkedList(["A", "B", "C"]))
+    print(f"linked list: {linked_list}, size: {linked_list.size()}")
+    linked_list.extend("linkedlist")
     print(f"linked list: {linked_list}, size: {linked_list.size()}")
     print("without negative indexing")
     for i in range(len(linked_list)):
